@@ -28,15 +28,18 @@
     <div class="navbar-fixed">
  <nav style="background:#fff" role="navigation">
     <div class="nav-wrapper container ">
-      <a id="logo-container" href="#" class="brand-logo black-text">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo black-text"><img height="60" src="https://app.sistemacontabl3.com/subusuarios/despacho.php?accion=LogoDominio&dominio=app.sistemacontabl3.com&ajax=true"></img></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="black-text" href="#">Navbar Link</a></li>
+        <li><a class="black-text" href="#">Quienes Somos?</a></li>
+        <li><a class="black-text" href="#">Contacto</a></li>
+        <li><a class="black-text" href="#">Soporte</a></li>
+        <li><a class="black-text" href="#">FAQ</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">Navbar Link</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse black-text"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 </div>
@@ -44,7 +47,6 @@
 
 <script type="text/javascript" >
     $('.button-collapse').sideNav();
-    
 </script>
 
 

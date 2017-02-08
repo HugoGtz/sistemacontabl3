@@ -1,9 +1,8 @@
-
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 style="color:#5D00F0" class="header center">Sistemacontabl3.com </h1>
+        <h1 style="color:#5D00F0; background:rgba(0, 0, 0, 0.65)"  class="header center">Sistemacontabl3.com </h1>
         <div class="row center">
           <h5 class="black-text header col s12 light">Lorem ipsum dolor sit amet, consectetuer</h5>
         </div>
