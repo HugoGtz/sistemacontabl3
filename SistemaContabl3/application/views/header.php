@@ -18,6 +18,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+  <!-- Socicon -->
+  <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="css/imgs.css" type="text/css" />
 </head>
 <style type="text/css">
   html{

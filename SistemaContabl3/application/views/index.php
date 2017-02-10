@@ -1,9 +1,7 @@
-<div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item blue white-text" href="#one!">
-      <h2>Bienvenido a RIGASA S.C</h2>
+<div class="carousel carousel-slider center " style="min-height:615px" data-indicators="true">
+
+    <div class="carousel-item imgs1 white-text " href="#one!">
+      <h2 >First Panel</h2>
       <p class="white-text">This is your first panel</p>
     </div>
     <div class="carousel-item amber white-text" href="#two!">
@@ -20,5 +18,10 @@
     </div>
   </div>
   <script type="text/javascript" >
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.carousel.carousel-slider').carousel({fullWidth: true, padding:200},setTimeout(autoplay, 4500));
+  function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 6000);
+}
   </script>
+ 
