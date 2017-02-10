@@ -3,7 +3,6 @@
       <a class="btn waves-effect white grey-text darken-text-2">button</a>
     </div>
     <div class="carousel-item blue white-text" href="#one!">
-      <img src=""></img>
       <h2>Bienvenido a RIGASA S.C</h2>
       <p class="white-text">This is your first panel</p>
     </div>
