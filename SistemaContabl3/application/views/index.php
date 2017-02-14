@@ -1,4 +1,4 @@
-<div class="carousel carousel-slider center " style="min-height:615px" data-indicators="true">
+<div class="carousel carousel-slider center" data-indicators="true">
 
     <div class="carousel-item imgs1 white-text " href="#one!">
       <h2>First Panel</h2>
@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class="blue">
-    <div style="height:615px" class="col s12"></div>
+    <div class="col s12"></div>
   </div>
   <script type="text/javascript">
     $('.carousel.carousel-slider').carousel({fullWidth: true, padding:200},setTimeout(autoplay, 4500));

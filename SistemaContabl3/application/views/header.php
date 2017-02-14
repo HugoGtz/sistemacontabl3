@@ -22,38 +22,37 @@
   <!-- Compiled and minified Socicon -->
   <link href="/SistemaContabl3/css/buttons.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/imgs.css" type="text/css" />
+  <!-- CSS Stylesw -->
+  <link rel="stylesheet" href="<?php echo base_url('css/').'main.css' ?>" type="text/css" />
+  
+  <link rel="stylesheet" href="<?php echo base_url('css/').'imgs.css' ?>" type="text/css" />
 </head>
-<style type="text/css">
-  html{
-  	font-family: 'Roboto', sans-serif;
-  }
-</style>
+
 <body>
-    <div class="navbar-fixed" style="height: 60px;">
- <nav style="background:#fff; height: 60px;" role="navigation">
-    <div class="nav-wrapper container ">
-      <a id="logo-container" width="100" href="#" class="brand-logo">
-        <div class="col s9 m6 l2"><img class = "responsive-img" height="60" width="170"  src="https://app.sistemacontabl3.com/subusuarios/despacho.php?accion=LogoDominio&dominio=app.sistemacontabl3.com&ajax=true"></img></div>
-      </a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="black-text" href="#">¿Quiénes somos?</a></li>
-        <li><a class="black-text" href="#">Contacto</a></li>
-        <li><a class="black-text" href="#">Soporte</a></li>
-        <li><a class="black-text" href="#">FAQ</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav role="navigation">
+      <div class="nav-wrapper container ">
+        <a id="logo-container" href="<?php echo base_url(); ?>" class="brand-logo">
+          <div class="col s9 m6 l2"><img cl ass = "responsive-img" src="https://app.sistemacontabl3.com/subusuarios/despacho.php?accion=LogoDominio&dominio=app.sistemacontabl3.com&ajax=true"></img></div>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="black-text" href="<?php echo base_url('sections/quiensomos') ?>">¿Quiénes somos?</a></li>
+          <li><a class="black-text" href="<?php echo base_url('sections/contacto') ?>">Contacto</a></li>
+          <li><a class="black-text" href="<?php echo base_url('sections/soporte') ?>">Soporte</a></li>
+          <li><a class="black-text" href="<?php echo base_url('sections/faq') ?>">FAQ</a></li>
+        </ul>
+  
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="<?php echo base_url('sections/quiensomos') ?>" class="secondary-item">¿Quiénes somos? <i class="material-icons left">perm_identity</i></a></li>
+          <li><a href="<?php echo base_url('sections/contacto') ?>" class="secondary-item">Contacto <i class="material-icons left">phone</i></a></li>
+          <li><a href="<?php echo base_url('sections/soporte') ?>" class="secondary-item">Soporte <i class="material-icons left">email</i></a></li>
+          <li><a href="<?php echo base_url('sections/faq') ?>" class="secondary-item">FAQ <i class="material-icons left">info_outline</i></a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a style ="width: 240px" href="#" class="secondary-item">¿Quiénes somos? <i style ="font-size: 25px;" class="material-icons right">perm_identity</i></a></li>
-        <li><a style ="width: 240px" href="#" class="secondary-item">Contacto <i style ="font-size: 25px;" class="material-icons right">phone</i></a></li>
-        <li><a style ="width: 240px" href="#" class="secondary-item">Soporte <i style ="font-size: 25px;" class="material-icons right">email</i></a></li>
-        <li><a style ="width: 240px" href="#" class="secondary-item">FAQ <i style ="font-size: 25px;" class="material-icons right">info_outline</i></a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse black-text"><i class="material-icons">menu</i></a>
-    </div>
-</nav>
-</div>
-
-<script type="text/javascript" >
-    $('.button-collapse').sideNav();
-</script>
+  <script type="text/javascript" >
+      $('.button-collapse').sideNav();
+  </script>

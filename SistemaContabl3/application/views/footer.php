@@ -7,7 +7,7 @@
         </div>
         <div class="col l3 s12 offset-l3">
           <h5>Redes Sociales</h5>
-          <ul class="soc" style="padding-top: 15px">
+          <ul class="soc">
             <li><a class="soc-twitter" href="#"></a></li>
             <li><a class="soc-facebook soc-icon-last" href="#"></a></li>
           </ul>

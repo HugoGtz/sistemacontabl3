@@ -1,0 +1,33 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-fixed{
+    height: 60px;
+    z-index: 999;
+}
+
+nav{
+    background: #fff;
+    height: 60px;
+}
+
+.brand-logo div img{
+    height: 60px;
+    width: 170px;
+}
+
+.nav-mobile li a i{
+    font-size: 25px;
+}
+
+.carousel-slider{
+    min-height: 615px;
+}
+.blue div{
+    height: 615px;
+}
+
+.soc{
+    padding-top: 15px;
+}
