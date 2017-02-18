@@ -1,8 +1,28 @@
 <div class="carousel carousel-slider center" data-indicators="true">
 
     <div class="carousel-item imgs1 white-text " href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
+      <div class="down">
+
+      <h1>Bienvenido</h1>
+      <p class="white-text">Obten mas informacion sobre nuestro productos.</p>
+
+
+    <form class="col s16">
+      <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <input id="email" type="email" class="validate">
+          <label for="email" data-error="Incorrecto" data-success="Correcto">Email</label>
+          <button class="btn waves-effect waves-light blue" type="submit" name="action">Enviar
+    <i class="material-icons right">send</i>
+  </button>
+        </div>
+
+      </div>
+    </form>
+      </div>
+
+
+
     </div>
     <div class="carousel-item imgs2 white-text" href="#two!">
       <h2>Second Panel</h2>
@@ -17,14 +37,59 @@
       <p class="white-text">This is your fourth panel</p>
     </div>
   </div>
-  <div class="blue">
-    <div class="col s12"></div>
+  <div class="row bar-m">
+    <div class="col s12 n-p">
+    <div class="col s4 twitter bar"></div>
+    <div class="col s4 facebook bar"></div>
+    <div class="col s4 google bar"></div>
+    </div>
   </div>
+  <div  class="blue">
+    <div class="col s12">
+    <div class="row">
+      <div class="col l4 left">
+         <ul class="collection bar-lateral col l12">
+    <li class="collection-item avatar">
+      <i class="material-icons circle">folder</i>
+      <span class="title">Utilerias Fiscales.</span>
+      <p>First Line <br>
+      </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle">folder</i>
+      <span class="title">Servicios en linea</span>
+      <p>First Line <br>
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle green">insert_chart</i>
+      <span class="title">Contabilidad Electronica</span>
+      <p>First Line <br>
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">play_arrow</i>
+      <span class="title">Facturacion</span>
+      <p>First Line <br>
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
+      </div>
+       <div class="col s8 bar-lateral white">
+    </div>
+    </div>
+    </div>
+   
+  </div>
+
   <script type="text/javascript">
-    $('.carousel.carousel-slider').carousel({fullWidth: true, padding:200},setTimeout(autoplay, 4500));
+    $('.carousel.carousel-slider').carousel({fullWidth: true, padding:200},setTimeout(autoplay, 10000));
     function autoplay() {
       $('.carousel').carousel('next');
       setTimeout(autoplay, 10000);
     }
   </script>
- 

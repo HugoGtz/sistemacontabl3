@@ -41,7 +41,7 @@
         <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="<?php echo base_url('sections/quiensomos') ?>">¿Quiénes somos?</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/registro') ?>">Regístrate</a></li>
-          <li><a class="black-text" href="<?php echo base_url('sections/iniciar') ?>">Iniciar sesión</a></li>
+          <li class="blue" ><a class="white-text" href="<?php echo base_url('sections/iniciar') ?>">Iniciar sesión</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/contacto') ?>">Contacto</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/soporte') ?>">Soporte</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/faq') ?>">FAQ</a></li>

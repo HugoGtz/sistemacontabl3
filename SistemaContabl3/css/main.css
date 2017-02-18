@@ -1,15 +1,17 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
-
+.down{
+    margin-top:300px;
+}
 .navbar-fixed{
-    height: 60px;
+    height: 64px;
     z-index: 999;
 }
 
 nav{
     background: #fff;
-    height: 60px;
+    height: 64px;
 }
 
 .brand-logo div img{
@@ -32,6 +34,8 @@ nav{
     padding-top: 15px;
 }
 
+
+/* css chat */
 .chat-box{
     position: fixed;
     right: 10px;
@@ -71,4 +75,45 @@ nav{
 #button_send{
     margin-right: 2px;
     margin-bottom: 5px;
+}
+
+
+/* css bar socials*/
+.bar-m{
+    margin:0;
+}
+.bar{
+    height:64px;
+}
+.bar-m .col{
+    padding:0;
+}
+.twitter{
+    background:#55acee;
+    float:left;
+    
+}
+.facebook{
+    background:#3b5998;
+        float:left;
+
+}
+.google{
+    background:#d34836;
+        float:left;
+
+}
+
+ /* label focus color */
+  .down .input-field input[type=email]:focus + label {
+     color: #fff;
+}
+/* label underline focus color */
+  .down .input-field input[type=email]:focus {
+     border-bottom: 1px solid #2196F3;
+     box-shadow: 0 1px 0 0 #2196F3;
+   }
+   
+.bar-lateral{
+    height:620px;
 }
