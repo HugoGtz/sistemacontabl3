@@ -50,7 +50,7 @@
       <div class="col l4 left">
          <ul class="collection bar-lateral col l12">
     <li class="collection-item avatar">
-      <i class="material-icons circle">folder</i>
+      <i class="material-icons circle">folder</i>on
       <span class="title">Utilerias Fiscales.</span>
       <p>First Line <br>
       </p>

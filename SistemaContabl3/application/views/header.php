@@ -29,9 +29,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   
   <link rel="stylesheet" href="<?php echo base_url('css/').'imgs.css' ?>" type="text/css" />
+  <script src="<?php echo base_url('js/').'facebook.js' ?>"></script>
 </head>
 
 <body>
+  
+  <!-- Header de la pagina. -->
   <div class="navbar-fixed">
     <nav role="navigation">
       <div class="nav-wrapper container ">
@@ -60,11 +63,16 @@
       
     </nav>
   </div>
-
+ <!-- script para side mobile y para collapsible de chat. -->
   <script type="text/javascript" >
       $('.button-collapse').sideNav();
       $('.collapsible').collapsible();
 
+  </script>
+  
+  
+  <script type="text/javascript">
+    // mostrar chat o no segun login.
   </script>
   
   <!-- Chat collapsible. -->
