@@ -31,8 +31,10 @@ window.fbAsyncInit = function() {
 	FB.getLoginStatus(function(response) {
 		if (response.status === 'connected') {
 			//user is authorized
+			alert("Hola");
 			document.getElementById('loginBtn').style.display = 'none';
 			getUserData();
+			
 		} else {
 			//user is not authorized
 		}
@@ -52,3 +54,6 @@ window.fbAsyncInit = function() {
  
 //add event listener to login button
 
+function containers(){
+	
+}

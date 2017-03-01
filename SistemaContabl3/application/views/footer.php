@@ -1,3 +1,6 @@
+ <div class="row bar-m">
+  
+ </div>
   <footer class="page-footer white " >
     <div class="container">
       <div class="row">
@@ -14,8 +17,8 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
+    <div class="footer-copyright" >
+      <div class="container ">
         <a class="black-text text-lighten-3" href="#"> <strong>Made by</strong> DowowLabs</a>
       </div>
     </div>
@@ -23,20 +26,7 @@
 <button id="loginBtn" class="btn blue" onclick="FB.login();">Facebook Login</button>
 <div id="response"></div>
 
-<script type="text/javascript" >
-  document.getElementById('loginBtn').addEventListener('click', function() {
-	//do the login
-	FB.login(function(response) {
-		if (response.authResponse) {
-			//user just authorized your app
-			document.getElementById('loginBtn').style.display = 'none';
-			
-			getUserData();
-		}
-	}, {scope: 'email,public_profile', return_scopes: true});
-}, false);
- 
-</script>
- </body>
 
+ </body>
+ 
 </html>

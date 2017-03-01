@@ -9,6 +9,31 @@ class Users extends CI_Controller {
 		$this->load->model('user_model');
 
 	}
+	
+	   function id(){
+	    if($this->session->userdata('logueado')){
+	     $id = $this->session->userdata('id');
+	     echo json_encode(array("id" => $id));
+	    }
+	   }
+	   
+	   function name(){
+	    if ($this->session->userdata('logueado')) {
+	     $name = $this->session->userdata('nombre');
+	     echo json_encode(array("name" => $name));
+	    }
+	   }
+	   function logeado($id_user_facebook,$name){
+    if($id_user_facebook){
+     $user_data = array(
+      'id' => $id_user_facebook,
+      'nombre' => $name,
+      'logueado' => TRUE
+      );
+      $this->session->set_userdata($user_data);
+      echo "Session creada";
+    }
+   }
     function datas(){
      $id_user_facebook = $this->input->get('id_user_facebook');
      $name = $this->input->get('name');
@@ -23,6 +48,7 @@ class Users extends CI_Controller {
      
      if($user==true){
          echo json_encode("existe el usuario");
+         $this->logeado($id_user_facebook, $name);
          
      }else{
         
@@ -33,5 +59,6 @@ class Users extends CI_Controller {
       
 
     }
+
 }
 ?>
