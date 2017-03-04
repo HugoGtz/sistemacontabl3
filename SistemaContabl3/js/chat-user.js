@@ -62,7 +62,7 @@ $( document ).ready(function() {
          $.ajax({
             type: "POST",
              url: "chat/loadMessages"
-        }).donde(function(new_messages){
+        }).donde(function(new_messages){//Da error aqui de ajax
             var json = JSON.parse(new_messages);
             var messages = "";
             

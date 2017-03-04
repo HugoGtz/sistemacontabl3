@@ -92,3 +92,21 @@
 .soc-instagram:before {
     content:'x';
 }
+.soc-googleplus {
+    background-color: #d34836;
+}
+.soc-googleplus:before {
+    content:'c';
+}
+.soc-linkedin {
+    background-color: #007bb6;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-msn {
+    background-color: #00A600;
+}
+.soc-msn:before {
+    content:'Z';
+}

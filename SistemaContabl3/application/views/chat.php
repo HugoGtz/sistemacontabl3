@@ -1,5 +1,5 @@
   <!-- Chat collapsible. -->
-<div class="row chat-box">
+<div id="chatfb" class="row chat-box">
    <ul class="collapsible z-depth-4" data-collapsible="accordion">
     <li>
       <div class="collapsible-header"><i class="material-icons">chat_bubble_outline</i>Chat soporte

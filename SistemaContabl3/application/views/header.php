@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  
   <!-- Compiled and minified Socicon -->
   <link href="/SistemaContabl3/css/buttons.css" rel="stylesheet">
 
@@ -30,6 +30,7 @@
   
   <link rel="stylesheet" href="<?php echo base_url('css/').'imgs.css' ?>" type="text/css" />
   <script src="<?php echo base_url('js/').'facebook.js' ?>"></script>
+   <script src="<?php echo base_url('js/').'chat-user.js' ?>"></script>
 </head>
 
 <body>
@@ -41,15 +42,14 @@
         <a id="logo-container" href="<?php echo base_url(); ?>" class="brand-logo">
           <div class="col s9 m6 l2"><img cl ass = "responsive-img" src="https://app.sistemacontabl3.com/subusuarios/despacho.php?accion=LogoDominio&dominio=app.sistemacontabl3.com&ajax=true"></img></div>
         </a>
-        <ul class="right hide-on-med-and-down">
+        <ul id="line" class="right hide-on-med-and-down">
           <li><a class="black-text" href="<?php echo base_url('sections/quiensomos') ?>">¿Quiénes somos?</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/registro') ?>">Regístrate</a></li>
-          <li class="blue" ><a class="white-text" href="<?php echo base_url('sections/iniciar') ?>">Iniciar sesión</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/contacto') ?>">Contacto</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/soporte') ?>">Soporte</a></li>
           <li><a class="black-text" href="<?php echo base_url('sections/faq') ?>">FAQ</a></li>
         </ul>
-  
+      
         <ul id="nav-mobile" class="side-nav">
           <li><a href="<?php echo base_url('sections/quiensomos') ?>" class="secondary-item">¿Quiénes somos?<i class="material-icons left">perm_identity</i></a></li>
           <li><a href="<?php echo base_url('sections/registro') ?>" class="secondary-item">Resgístrate<i class="material-icons left">last_page</i></a></li>
