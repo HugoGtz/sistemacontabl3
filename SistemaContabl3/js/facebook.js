@@ -1,11 +1,17 @@
  
 function getUserData() {
-	FB.api('/me', function(response) {
+	FB.api('/me', {fields: 'id, name, email'}, function(response) {
 	    "...?fields={fieldname_of_type_CoverPhoto}",
-		document.getElementById('response').innerHTML = 'Hello ' + response.id;
+	    
+	    //User Greeting
+		document.getElementById('response').innerHTML = 'Hello ' + response.name;
+		
+		// Get today's date
 		var d = new Date();
         var strDate = d.getFullYear() + "/" + (d.getMonth()+1) + "/" + d.getDate();
 	    var id_user_facebook = response.id, name = response.name, user_name = null, password = null, phone = null, email = response.email, user_range = 1, registration_date = strDate;
+	    
+	   // send data to controller users/datas
 		$.get('users/datas', {id_user_facebook: id_user_facebook, name: name, user_name: user_name, password:password, phone: phone, email: email, user_range: user_range, registration_date: registration_date}, function(data) {
 		    console.log(data);
 		});
@@ -31,7 +37,6 @@ window.fbAsyncInit = function() {
 	FB.getLoginStatus(function(response) {
 		if (response.status === 'connected') {
 			//user is authorized
-			alert("Hola");
 			document.getElementById('loginBtn').style.display = 'none';
 			getUserData();
 			
