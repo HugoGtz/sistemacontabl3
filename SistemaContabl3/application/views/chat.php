@@ -11,7 +11,7 @@
         <span class="new badge blue">4</span></div>
        </div>
         <div id="chat_output" class="collapsible-body white chats">
-        
+           
         </div>
         <div id="chat_input" class="collapsible-body white type-chat">
           <span id="chat_span">

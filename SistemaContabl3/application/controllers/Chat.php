@@ -57,7 +57,8 @@ class Chat extends CI_Controller {
 	    $id_user = $this->session->userdata('id');
 	    $chat_id = $this->chat_model->get_id_chat($id_user);
 	    
-	    $messages = $this->get_messages($chat_id->id);
+	    $messages = $this->chat_model->get_messages($chat_id->id);
+	    echo json_encode($messages);
 	    return json_encode($messages);
 	}
 	

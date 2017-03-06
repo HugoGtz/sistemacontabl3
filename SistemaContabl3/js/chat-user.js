@@ -49,6 +49,8 @@ $( document ).ready(function() {
               data: {'msg':msg}
           }).done(function(info){
               $("#input_chat").val("");
+              var altura =  $("#chat_output").prop("scrollHeight");
+            $("#chat_output").scrollTop(altura);
           });
           }else{
              alert("No puedes mandar mansajes en blanco.")
@@ -59,19 +61,24 @@ $( document ).ready(function() {
   
     // Get messages on this chat.
     var show_message = function(){
-         $.ajax({
-            type: "POST",
-             url: "chat/loadMessages"
-        }).donde(function(new_messages){//Da error aqui de ajax
-            var json = JSON.parse(new_messages);
-            var messages = "";
+        console.log("Hi.")
+        
+        $.post("./chat/get_messages",function(data){
+             var json = JSON.parse(data);
+             var messages = "";
             
             for(message in json){
-                messages += '';
+                messages += '<div id="user_chat_line"><span><div class="chip"><img src="http://api.adorable.io/avatar/1382083888499693" alt="Contact Person">YOU</div>¿'+json[message].line_text+'</span><br>		 Date:'+json[message].created_at+'<hr></div>';
             }
+            $("#chat_output").html(messages);
+            var altura =  $("#chat_output").prop("scrollHeight");
+            $("#chat_output").scrollTop(altura);
         });
-    }
 
+        
+         
+        }
+ 
 
     // Get id_user
     function id_user(){
@@ -96,3 +103,4 @@ $( document ).ready(function() {
         }).responseJSON;
         return name.name;
     }
+        
