@@ -18,6 +18,12 @@ nav{
     height: 60px;
     width: 170px;
 }
+#logo-container{
+    height: 60px;
+}
+.logo-rd{
+    height: 60px;
+}
 
 .nav-mobile li a i{
     font-size: 25px;

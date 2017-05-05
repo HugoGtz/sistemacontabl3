@@ -40,7 +40,7 @@
     <nav role="navigation">
       <div class="nav-wrapper container ">
         <a id="logo-container" href="<?php echo base_url(); ?>" class="brand-logo">
-          <div class="col s9 m6 l2"><img cl ass = "responsive-img" src="https://app.sistemacontabl3.com/subusuarios/despacho.php?accion=LogoDominio&dominio=app.sistemacontabl3.com&ajax=true"></img></div>
+          <div class="col s9 m6 l2 logo-rd"><img cl ass = "responsive-img" src="https://app.sistemacontabl3.com/subusuarios/despacho.php?accion=LogoDominio&dominio=app.sistemacontabl3.com&ajax=true"></img></div>
         </a>
         <ul id="line" class="right hide-on-med-and-down">
           <li><a class="black-text" href="<?php echo base_url('sections/quiensomos') ?>">¿Quiénes somos?</a></li>
@@ -62,6 +62,7 @@
       </div>
       
     </nav>
+    <a id="open_chat" class="btn-floating btn-small waves-effect waves-light blue"><i class="material-icons">chat_bubble_outline</i></a>
   </div>
  <!-- script para side mobile y para collapsible de chat. -->
   <script type="text/javascript" >
@@ -76,3 +77,10 @@
   </script>
   
 
+ <script>
+  $(document).ready(function(){
+        $("#open_chat").click(function(){
+            $("#chatfb").toggleClass("show_hide");
+        });
+  });
+</script>

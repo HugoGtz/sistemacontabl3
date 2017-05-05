@@ -15,7 +15,7 @@
             <li><a class="soc-facebook" href="#"></a></li>
             <li><a class="soc-linkedin" href="#"></a></li>
             <li><a class="soc-googleplus" href="#"></a></li>
-            <li><a class="soc-msn soc-icon-last" href="#"></a></li>
+            <li><a class="soc-msn soc-icon-last" href="http://9gag.com/"></a></li>
           </ul>
         </div>
       </div>

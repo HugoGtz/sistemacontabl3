@@ -1,4 +1,4 @@
-<a id="open_chat" class="btn-floating btn-small waves-effect waves-light blue"><i class="material-icons">chat_bubble_outline</i></a>
+
 <div class="carousel carousel-slider center" data-indicators="true">
 
     <div class="carousel-item imgs2 white-text" href="#one!">
@@ -44,7 +44,7 @@
   </div>
   <div class="row bar-m">
     <div class="col s12 n-p">
-    <div class="col s4 twitter bar center"></div>
+    <div class="col s4 twitter bar center"><ul class="soc"><li><a class="soc-twitter" href="https://www.facebook.com/tusaludfiscal/?fref=ts"></a></li></ul></div>
     <div class="col s4 facebook bar center">
     </div><div class="col s4 google bar center"></div>
     </div>
@@ -99,10 +99,4 @@
     }
   </script>
   
-  <script>
-  $(document).ready(function(){
-        $("#open_chat").click(function(){
-            $("#chatfb").toggleClass("show_hide");
-        });
-  });
-</script>
+ 

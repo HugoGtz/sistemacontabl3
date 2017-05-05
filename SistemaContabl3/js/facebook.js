@@ -38,6 +38,7 @@ window.fbAsyncInit = function() {
 		if (response.status === 'connected') {
 			//user is authorized
 			document.getElementById('loginBtn').style.display = 'none';
+			document.getElementById('ingresar').style.display = 'none';
 			getUserData();
 			
 		} else {

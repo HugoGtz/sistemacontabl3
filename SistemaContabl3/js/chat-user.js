@@ -2,7 +2,12 @@ $( document ).ready(function() {
     send_message();
     chat_status();
     create_chat();
-    setInterval("show_message()",500)
+    timer = setInterval("show_message()", 500);
+              $('#chat_output').mouseover(function(){
+                  clearInterval(timer);
+               }).mouseout(function(){
+                  timer = setInterval("show_message()", 500);
+               });
 });
     
     // Check if there is already a conversation with an admin,according to the id_user, and return true or false depending on the state.
@@ -77,6 +82,14 @@ $( document ).ready(function() {
 
         
          
+        }
+        
+        var stopped_interval = function(){
+              $('#chat-box').mouseover(function(){
+                  clearInterval(timer);
+               }).mouseout(function(){
+                  timer = setInterval("show_message()", 500);
+               });
         }
  
 

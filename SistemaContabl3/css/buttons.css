@@ -80,12 +80,6 @@
 .soc-twitter:before {
     content:'a';
 }
-.soc-youtube {
-    background-color: #e02a20;
-}
-.soc-youtube:before {
-    content:'r';
-}
 .soc-instagram {
     background-color: #9c7c6e;
 }

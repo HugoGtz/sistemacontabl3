@@ -11,7 +11,6 @@ class Chat extends CI_Controller {
 	function messages(){
     	$this->load->view('header');
 		$this->load->view('adminchat');
-		$this->load->view('footer');
 	}
 	
 	function chat_status(){

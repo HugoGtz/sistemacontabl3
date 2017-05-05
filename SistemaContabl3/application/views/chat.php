@@ -2,11 +2,11 @@
 <div id="chatfb" class="row chat-box">
    <ul class="collapsible z-depth-4" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header"><i class="material-icons">chat_bubble_outline</i>Chat soporte
+      <div class="collapsible-header">
        <div id="name_chat" class="right">
         <div class="chip">
           <img src="http://api.adorable.io/avatar/1382083888499693" alt="Contact Person">
-          Jane Doe
+          <p style="display: inline-block; margin-top: 0px">Chat Soporte</p>
         </div>
         <span class="new badge blue">4</span></div>
        </div>
