@@ -73,7 +73,7 @@ $( document ).ready(function() {
              var messages = "";
             
             for(message in json){
-                messages += '<div id="user_chat_line"><span><div class="chip"><img src="http://api.adorable.io/avatar/1382083888499693" alt="Contact Person">YOU</div>¿'+json[message].line_text+'</span><br>		 Date:'+json[message].created_at+'<hr></div>';
+                messages += '<div id="user_chat_line"><span><div class="chip"><img src="http://api.adorable.io/avatar/1382083888499693" alt="Contact Person">YOU</div>'+json[message].line_text+'</span><br>		 Date:'+json[message].created_at+'<hr></div>';
             }
             $("#chat_output").html(messages);
             var altura =  $("#chat_output").prop("scrollHeight");

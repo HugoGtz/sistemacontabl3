@@ -4,7 +4,7 @@
     <div class="carousel-item imgs2 white-text" href="#one!">
       <div class="down">
         <h1 class="black-text">Rigasa S.C.</h1>
-        <h5 class="black-text">Bienvenido</h5>
+        <h5 class="black-text">Bienvenido <span id="response"></span></h5>
         <button id="loginBtn" class="btn waves-effect waves-light blue z-depth-5" onclick="FB.login();">Ingresar con Facebook</button><br>
         <button id="ingresar" class="btn waves-effect waves-light blue z-depth-5" type="submit" name="action">Ingresar
       </div>
@@ -44,43 +44,59 @@
   </div>
   <div class="row bar-m">
     <div class="col s12 n-p">
-    <div class="col s4 twitter bar center"><ul class="soc"><li><a class="soc-twitter" href="https://www.facebook.com/tusaludfiscal/?fref=ts"></a></li></ul></div>
+       <a href="https://twitter.com/Asesorfiscalcol">
+    <div class="col s4 twitter bar center">
+        <h4 class="white-text center">Twitter</h4>
+      </div>
+       </a> 
+      <a href="https://www.facebook.com/pg/tusaludfiscal/">
     <div class="col s4 facebook bar center">
-    </div><div class="col s4 google bar center"></div>
+      <h4 class="white-text center">Facebook</h4>
     </div>
+      </a>
+    <a href="https://www.youtube.com/channel/UCaQK4c7Kz5y-o7ge2DDjryA">
+    <div class="col s4 google bar center">
+      <h4 class="white-text center">Google</h4>
+    </div>
+    </a>
+    
+    </div>
+    
   </div>
+  
+  
   <div  class="blue">
     <div class="col s12">
     <div class="row">
       <div class="col l4 left">
-         <ul class="collection bar-lateral col l12">
-    <li class="collection-item avatar">
-      <i class="material-icons circle">folder</i>on
+         <ul class="collection bar-lateral col l12" style="padding:0px">
+    <li class="collection-item avatar" alt="1">
+      <i class="material-icons circle">folder</i>
       <span class="title">Utilerias Fiscales.</span>
       <p>First Line <br>
       </p>
-        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" alt="2">
       <i class="material-icons circle">folder</i>
       <span class="title">Servicios en linea</span>
       <p>First Line <br>
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" alt="3">
       <i class="material-icons circle green">insert_chart</i>
       <span class="title">Contabilidad Electronica</span>
       <p>First Line <br>
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      
     </li>
-    <li class="collection-item avatar">
+    <li class="collection-item avatar" alt="4">
       <i class="material-icons circle red">play_arrow</i>
       <span class="title">Facturacion</span>
       <p>First Line <br>
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      
     </li>
   </ul>
       </div>

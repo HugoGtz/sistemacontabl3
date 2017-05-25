@@ -1,10 +1,9 @@
- 
 function getUserData() {
 	FB.api('/me', {fields: 'id, name, email'}, function(response) {
 	    "...?fields={fieldname_of_type_CoverPhoto}",
 	    
 	    //User Greeting
-		document.getElementById('response').innerHTML = 'Hello ' + response.name;
+		document.getElementById('response').innerHTML = response.name;
 		
 		// Get today's date
 		var d = new Date();
