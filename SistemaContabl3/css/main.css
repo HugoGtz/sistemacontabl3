@@ -32,7 +32,7 @@ nav{
 .carousel-slider{
     min-height: 615px;
 }
-.blue div{
+.blue > div{
     height: 600px;
 }
 
@@ -228,6 +228,15 @@ nav{
     cursor: pointer;
 }
 
-.bar-m div:hover{
-    background-color: 
+/*.bar-m div:hover{*/
+/*    background-color: */
+/*}*/
+
+.apart{
+    height: 540px;
+}
+
+.collection .collection-item.active{
+    background-color:#b1dcfb;
+    color:#000;
 }
