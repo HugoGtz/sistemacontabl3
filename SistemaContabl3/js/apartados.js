@@ -8,8 +8,7 @@ $(document).ready(function() {
       $(this).addClass("active");
       switch (apart) {
         case '1':
-           setTimeout( $("#utilerias").fadeIn('fast'),20000);
-           
+            $("#utilerias").fadeIn('fast');
             break;
         case '2':
             $("#servicios").fadeIn('fast');
@@ -20,8 +19,8 @@ $(document).ready(function() {
         case '4':
             $("#facturacion").fadeIn('fast');
             break;
-            
-        
+
+
         default:
             // code
     }
