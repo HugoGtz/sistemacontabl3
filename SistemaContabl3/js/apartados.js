@@ -1,7 +1,7 @@
 $(document).ready(function() {
-   $(".aprt").on('click',function(){
+   $(".aprts").on('click',function(){
       $(".apart").fadeOut('fast');
-      $(".aprt").removeClass('active');
+      $(".aprts").removeClass('active');
       setTimeout($(".loader").fadeIn('slow'),20000);
       setTimeout($(".loader").fadeOut('slow'),10000);
       var apart = $(this).attr('alt');

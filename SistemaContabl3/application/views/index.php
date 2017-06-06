@@ -67,40 +67,31 @@
   
   <div  class="blue">
     <div class="col s12">
+      
     <div class="row">
-      <div class="col l4 left">
-         <ul class="collection bar-lateral col l12" style="padding:0px">
-    <li class="collection-item avatar aprt active" alt="1">
-      <i class="material-icons circle blue">work</i>
-      <span class="title">Utilerias Fiscales.</span>
-      <p>First Line <br>
-      </p>
-        
-    </li>
-    <li class="collection-item avatar aprt" alt="2">
-      <i class="material-icons circle amber">settings_remote</i>
-      <span class="title">Servicios en linea</span>
-      <p>First Line <br>
-      </p>
       
-    </li>
-    <li class="collection-item avatar aprt" alt="3">
-      <i class="material-icons circle green">insert_chart</i>
-      <span class="title">Contabilidad Electronica</span>
-      <p>First Line <br>
-      </p>
-      
-    </li>
-    <li class="collection-item avatar aprt" alt="4">
-      <i class="material-icons circle red">receipt</i>
-      <span class="title">Facturacion</span>
-      <p>First Line <br>
-      </p>
-      
-    </li>
-  </ul>
+      <div class="row hide-on-large-only" style="margin-top:10px">
+        <div alt="1" style="padding:30px" class="col pointer white-text s3 aprts center blue">Utilerias</div>
+        <div alt="2" style="padding:30px" class="col pointer white-text s3 aprts center purple">Servicios</div>
+        <div alt="3" style="padding:30px" class="col pointer white-text s3 aprts center green">Contabilidad</div>
+        <div alt="4" style="padding:30px" class="col pointer white-text s3 aprts center red">Facturacion.</div>
       </div>
-       <div class="col s8 bar-lateral white z-depth-3" style="margin-top:10px">
+      
+        <div class="col s4 hide-on-med-and-down ">
+          <ul class="collection" style="height:577px">
+      <li  alt="1" class="collection-item aprts active" style="padding-top:50.5px; padding-bottom:50.5px">
+        <i style="height:42px; width:42px; line-height:42px;" class="material-icons center white-text circle blue">work</i> Utilerias</li>
+      <li  alt="2" class="collection-item aprts" style="padding-top:50.5px; padding-bottom:50.5px">
+        <i style="height:42px; width:42px; line-height:42px;" class="material-icons center white-text circle purple">settings_remote</i> Servicios en linea</li>
+      <li  alt="3" class="collection-item aprts" style="padding-top:50.5px; padding-bottom:50.5px">
+        <i style="height:42px; width:42px; line-height:42px;" class="material-icons center white-text circle green">insert_chart</i> Contabilidad Electronica.</li>
+      <li  alt="4" class="collection-item aprts" style="padding-top:50.5px; padding-bottom:50.5px">
+        <i style="height:42px; width:42px; line-height:42px;" class="material-icons center white-text circle red">receipt</i> Facturacion.</li>
+    </ul>
+        </div>
+        
+    
+       <div class="col s12 l8 m12 bar-lateral white z-depth-3" style="margin-top:10px">
          
          <div class="row loader" style="display:none">
             <div class="progress white">

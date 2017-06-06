@@ -240,3 +240,11 @@ nav{
     background-color:#b1dcfb;
     color:#000;
 }
+
+.admin_card{
+    height: 115px;
+}
+
+.pointer{
+    cursor:pointer;
+}

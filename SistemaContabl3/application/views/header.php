@@ -30,8 +30,9 @@
   
   <link rel="stylesheet" href="<?php echo base_url('css/').'imgs.css' ?>" type="text/css" />
   <script src="<?php echo base_url('js/').'facebook.js' ?>"></script>
-   <script src="<?php echo base_url('js/').'chat-user.js' ?>"></script>
+   <!--<script src="<?php echo base_url('js/').'chat-user.js' ?>"></script>-->
    <script src="<?php echo base_url('js/').'apartados.js' ?>"></script>
+    <script src="<?php echo base_url('js/').'cont.js' ?>"></script>
    
    <link rel="stylesheet" type="text/css" href="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.css" />
     <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-core.js"></script>
